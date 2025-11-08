@@ -8,7 +8,9 @@ bb = Billboard()
 songs = bb.get_song_list()
 
 sp = SpotifyOps()
-song_uris = sp.get_songs(songs, year)
-print(song_uris)
+sp.get_songs(songs, year)
+
+# song_uris = sp.get_songs(songs, year)
+# print(song_uris)
 
 
